@@ -1,0 +1,17 @@
+:root {
+    --header-top-color: #000000;
+    --header-nav-color: #F9F9F9;
+    --background-color: #FFFFFF;
+    --header-top-text-color: #F2F2F2;
+    --sale-color: #EB5757;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--background-color);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
