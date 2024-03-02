@@ -1,0 +1,11 @@
+.company__wrapper {
+    max-width: 1300px;
+    margin: 50px auto 0;
+    padding: 0 8px;
+}
+
+.company__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

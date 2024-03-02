@@ -1,0 +1,100 @@
+.new-products__wrapper {
+    max-width: 1360px;
+    margin: 100px auto 0;
+    padding: 0 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-products__headline {
+    margin: 0 0 48px;
+    color: var(--header-top-color);
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: normal;
+}
+
+.new-products__list {
+    display: flex;
+    gap: 25px;
+}
+
+.new-products__item {
+    min-width: 321px;
+    min-height: 464px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.new-products__picture {
+    background-color: var(--header-nav-color);
+    padding: 50px 25px;
+}
+
+.new-products__favourites {
+    position: absolute;
+    width: 40px;
+    top: 15px;
+    right: 15px;
+}
+
+.new-products__title {
+    color: var(--header-top-color);
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+}
+
+.new-products__gender {
+    color: var(--new-product-gender-color);
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+
+.new-products__price {
+    color: var(--header-top-color);
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.new-products__button--left {
+    background: none;
+    border: none;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: -45px;
+    cursor: pointer;
+}
+
+#left {
+    transform: rotate(180deg);
+}
+
+.new-products__button--right {
+    background: none;
+    border: none;
+    position: absolute;
+    top: calc(50% - 15px);
+    right: -45px;
+    cursor: pointer;
+}
+
+.new-products__button--more {
+    color: var(--header-top-text-color);
+    background-color: var(--header-top-color);
+    margin: 75px 0 100px;
+    padding: 10px 90px;
+    font-family: 'Grtsk Peta', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}

@@ -46,3 +46,40 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+@font-face {
+  font-family: 'Grtsk Peta';
+  font-style: normal;
+  font-weight: 500;
+  src: url(./fonts/GrtskPeta-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Grtsk Peta';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./fonts/GrtskPeta-Bold.woff) format('woff');
+}
+
+:root {
+  --header-top-color: #000000;
+  --header-nav-color: #F9F9F9;
+  --background-color: #FFFFFF;
+  --header-top-text-color: #F2F2F2;
+  --sale-color: #EB5757;
+  --new-product-gender-color: #828B8D;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}

@@ -8,8 +8,6 @@ header {
     padding: 0 8px;
 }
 
-// Top part of header
-
 .header__top-wrapper {
     background-color: var(--header-top-color);
     width: 100vw;
@@ -21,6 +19,7 @@ header {
     display: flex;
     max-width: 1360px;
     padding: 15px 0;
+    position: relative;
 }
 
 .header__region {
@@ -30,13 +29,12 @@ header {
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 2rem;
-    position: relative;
 }
 
-.header__region::before {
-    content: url(/images/icons/pointer.svg);
+.header__region-picture {
     position: absolute;
-    left: -29px;
+    top: 15px;
+    left: 0;
 }
 
 .header__button {
@@ -50,13 +48,12 @@ header {
     background: none;
     border: none;
     cursor: pointer;
-    position: relative;
 }
 
-.header__button::after {
-    content: url(/images/icons/arrow.svg);
+.header__button-picture {
     position: absolute;
-    right: -22px;
+    top: 23px;
+    left: 230px;
 }
 
 .header__top-pages {
@@ -87,27 +84,11 @@ header {
     position: relative;
 }
 
-.header__service-item:first-child::before {
-    content: url(/images/icons/delivery.svg);
+.header__service-picture {
     position: absolute;
     top: -2px;
     left: -39px;
 }
-
-.header__service-item:nth-child(2)::before {
-    content: url(/images/icons/payment.svg);
-    position: absolute;
-    top: 1px;
-    left: -35px;
-}
-
-.header__service-item:last-child::before {
-    content: url(/images/icons/refund.svg);
-    position: absolute;
-    left: -35px;
-}
-
-// Middle part of header
 
 .header__mid-wrapper {
     background-color: var(--background-color);
@@ -160,8 +141,6 @@ header {
 .header__actions-picture {
     width: 24px;
 }
-
-// Middle part of header
 
 .header__nav-list {
     display: flex;
