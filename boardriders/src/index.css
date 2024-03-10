@@ -62,12 +62,11 @@ table {
 }
 
 :root {
-  --header-top-color: #000000;
-  --header-nav-color: #F9F9F9;
-  --background-color: #FFFFFF;
-  --header-top-text-color: #F2F2F2;
-  --sale-color: #EB5757;
-  --new-product-gender-color: #828B8D;
+  --text-color: black;
+  --button-text-color: white;
+  --card-background-color: rgb(152, 203, 255);
+  --card-border-color: rgb(132, 124, 210);
+  --card-like-color: red;
   font-size: 62.5%;
 }
 
@@ -77,9 +76,39 @@ table {
 
 body {
   background-color: var(--background-color);
-  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  font-family: 'Grtsk Peta', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: normal;
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 25px auto;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.wrapper button {
+  color: var(--button-text-color);
+  background-color: var(--card-like-color);
+  font-family: 'Grtsk Peta', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: normal;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
 }
